@@ -3421,7 +3421,7 @@ blockquote:after {
 
 /* Style | Zoom */
 
-.if-zoom {}
+
 
 .if-zoom .image_frame .image_wrapper .image_links {
 	display: none;
@@ -9702,7 +9702,7 @@ hr {
 .author-box .avatar-wrapper,
 #comments .commentlist>li .photo,
 .edd_download_image {
-	border-color: #f8f8f8
+	border-color: transparent
 }
 
 .wp-caption-text {
@@ -21532,7 +21532,7 @@ input::-moz-focus-inner {
 
 .header-plain #Top_bar .top_bar_right,
 .header-plain #Top_bar .top_bar_right_wrapper {
-	top: 0
+	top: 25px
 }
 
 .header-plain #Top_bar .top_bar_right:before {
@@ -21693,7 +21693,7 @@ input::-moz-focus-inner {
 .header-plain #Top_bar.is-sticky .top_bar_right {
 	padding: 0;
 	height: 60px;
-	top: 0
+	top: 10px
 }
 
 .header-plain #Top_bar.is-sticky .wpml-languages {
@@ -21720,12 +21720,10 @@ input::-moz-focus-inner {
 .header-plain #Top_bar a#search_button,
 .header-plain #Top_bar .wpml-languages,
 .header-plain #Top_bar a.button.action_button {
-	border-color: #f2f2f2
+	border-color: transparent
 }
 
 /* Heading --------------------------------------------------------------------------- */
-
-.mfn_heading {}
 
 .mfn_heading.align_left {
 	text-align: left
@@ -23097,9 +23095,7 @@ body.nice-scroll:not(.layout-boxed) {
 	text-align: center;
 }
 
-.photo .post-desc .post-head {}
-
-.photo .post-desc .post-head .post-meta {
+.photo .post-desc .photo .post-desc .post-head .post-meta {
 	display: inline-block;
 }
 
@@ -23110,9 +23106,7 @@ body.nice-scroll:not(.layout-boxed) {
 	line-height: inherit;
 }
 
-.photo .post-desc .post-title {}
-
-.photo .post-desc .post-excerpt {
+.photo .post-desc .photo .post-desc .post-excerpt {
 	margin-bottom: 0;
 }
 
@@ -24686,15 +24680,11 @@ body:not(.with_aside) .portfolio_group.list .portfolio-item .portfolio-item-fw-w
 	top: 0;
 }
 
-.portfolio_group.masonry-hover .portfolio-item .masonry-hover-wrapper .hover-desc .links-wrappper a.zoom {}
-
-.portfolio_group.masonry-hover .portfolio-item .masonry-hover-wrapper .hover-desc .links-wrappper a.link {
+.portfolio_group.masonry-hover .portfolio-item .masonry-hover-wrapper .hover-desc .links- .portfolio_group.masonry-hover .portfolio-item .masonry-hover-wrapper .hover-desc .links-wrappper a.link {
 	float: right;
 }
 
-.portfolio_group.masonry-hover .portfolio-item .masonry-hover-wrapper .hover-desc .links-wrappper a.external {}
-
-.portfolio_group.masonry-hover .portfolio-item .image-wrapper {
+.portfolio_group.masonry-hover .portfolio-item .masonry-hover-wrapper .hover-desc .links- .portfolio_group.masonry-hover .portfolio-item .image-wrapper {
 	line-height: 0;
 }
 
@@ -24891,7 +24881,7 @@ body:not(.with_aside) .portfolio_group.list .portfolio-item .portfolio-item-fw-w
 
 /* Exposure */
 
-.portfolio_group.exposure {}
+
 
 .portfolio_group.exposure .portfolio-item {
 	width: 100%;

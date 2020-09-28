@@ -93,11 +93,41 @@
   width: 250px;
 }
 
+.depoimento {
+  text-align: center;
+}
+
+.link-footer {
+  color: white !important;
+}
+
+.link-footer:hover {
+  border-bottom: #FDCD00 !important;
+  color: #FDCD00 !important;
+}
+
+.action_button {
+  background-color: #ffc106;
+
+  top: -2px;
+  margin: 0 5px;
+}
+
+#Top_bar .top_bar_right_wrapper {
+  top: 25px !important;
+}
+
+.titulo-politica {
+  margin-left: 70% !important;
+  width: 500px;
+}
+
+/* 
 @media only screen and (max-width: 1238px) {
   .teste {
     /* width: 120% */
-  }
-}
+/* } */
+/* } */
 
 @media only screen and (max-width: 1078px) {
   .titulo-inicial {

@@ -2104,7 +2104,7 @@ body.minimalist-header.header-below:not(.template-slider) #Header {
 }
 
 .header-below #Top_bar .top_bar_right {
-	top: 0;
+	top: 25px;
 }
 
 .header-below #Top_bar .top_bar_right:before {
