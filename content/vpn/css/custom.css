@@ -108,9 +108,16 @@
 
 .action_button {
   background-color: #ffc106;
-
-  top: -2px;
   margin: 0 5px;
+  color: black;
+}
+
+.btn-menu {
+  padding-top: 20%;
+}
+
+.is-sticky .btn-menu {
+  padding-top: 8%;
 }
 
 #Top_bar .top_bar_right_wrapper {
@@ -120,6 +127,23 @@
 .titulo-politica {
   margin-left: 70% !important;
   width: 500px;
+}
+
+.item-menu:hover {
+  color: #FDCD00 !important;
+}
+
+.borda-menu {
+  border-bottom: 5px solid #150D3F;
+
+}
+
+.is-sticky .borda-menu {
+  border-bottom: none;
+}
+
+.borda-menu:hover {
+  border-bottom: 5px solid #FDCD00;
 }
 
 /* 
