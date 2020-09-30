@@ -429,6 +429,12 @@
 	}
 }
 
+#Top_bar.is-sticky {
+	position: fixed !important;
+	height: 60px;
+
+}
+
 @media only screen and (min-width: 1240px) {
 	#Top_bar.is-sticky {
 		position: fixed !important;
@@ -594,7 +600,7 @@
 	}
 
 	#Top_bar a.responsive-menu-toggle i {
-		font-size: 25px;
+		font-size: 30px;
 		line-height: 35px;
 	}
 
@@ -1231,8 +1237,8 @@ a.mfn-link-6:before {
 .header-plain #Top_bar a:hover#search_button,
 .header-plain #Top_bar .wpml-languages:hover,
 .header-plain #Top_bar .wpml-languages ul.wpml-lang-dropdown {
-	background: #F2F2F2;
 	color: #ffc106;
+	border-bottom: #FDCD00 !important;
 }
 
 .header-plain #Top_bar,
@@ -2194,6 +2200,7 @@ h6 {
 .header-plain #Top_bar a.responsive-menu-toggle,
 .header-transparent #Top_bar a.responsive-menu-toggle {
 	top: 28px;
+	color: #FDCD00;
 }
 
 .twentytwenty-before-label::before {

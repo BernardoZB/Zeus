@@ -12,15 +12,15 @@
         <div class="menu_wrapper">
           <nav id="menu" class="menu-main-menu-container">
             <ul id="menu-main-menu" class="menu">
-              <li class="menu-item menu-item-type-custom menu-item-object-custom last borda-menu">
-                <a class="item-menu" href="take-a-tour.html"><span> Funcionalidades</span>
+              <li class="item-menu menu-item menu-item-type-custom menu-item-object-custom last borda-menu">
+                <a class=" menu-item" href="/funcionalidades.html"><span> Funcionalidades</span>
                 </a>
               </li>
-              <li class="menu-item menu-item-type-custom menu-item-object-custom last borda-menu">
-                <a class="item-menu" href="features.html"><span> Planos</span></a>
+              <li class="item-menu menu-item  menu-item-type-custom menu-item-object-custom last borda-menu">
+                <a class=" menu-item" href="/planos.html"><span> Planos</span></a>
               </li>
-              <li class="menu-item menu-item-type-custom menu-item-object-custom last borda-menu">
-                <a class="item-menu"
+              <li class="item-menu menu-item menu-item-type-custom menu-item-object-custom last borda-menu">
+                <a class=" menu-item"
                   href="https://accounts.eduzz.com/f50f9e27-2b88-4588-9fd6-0c8a9e5db0cd/login?bg=https%3A%2F%2Fcdn.nutror.com%2Fuploads%2Fimages%2Fcourses%2F02%2F98%2F5ab54277ec2d4d71b5f50bec37e9.png&create=false&logo=https%3A%2F%2Fcdn.nutror.com%2Fuploads%2Fimages%2Fcourses%2F25%2Fa9%2F9ffaf30cb53cb888b977bc68b420.png&redirectTo=https%3A%2F%2Fapp.nutror.com%2Fv3%2F38d3ec2893e362d974eb9a438ba99450bb8063a4&register=false"><span>
                     Login</span></a>
               </li>
@@ -71,3 +71,17 @@
   </ul>
 </div>
 <div id="body_overlay"></div>
+
+<script src="js/scripts.js"></script>
+<script src="js/mfn.menu.js"></script>
+
+<script>
+  var url = window.location.pathname;
+  var ativo = $(".menu-item[href='" + url + "']");
+  $(".menu-item").parent().removeClass("current-menu-item");
+  $(ativo).parent().addClass("current-menu-item");
+
+  var ativo2 = $(".item-menu[href='" + url + "']");
+  $(".item-menu").parent().removeClass("menu-ativo");
+  $(ativo2).parent().addClass("menu-ativo");
+</script>

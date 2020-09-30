@@ -7054,8 +7054,7 @@ body {
 	#Top_bar .logo {
 		position: static;
 		float: none;
-		width: 100%;
-		text-align: center;
+		text-align: left;
 		margin: 0;
 	}
 
