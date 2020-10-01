@@ -8,6 +8,7 @@ $(function () {
   $("#header").load("/header.html");
   $("#foot").load("/footer.html");
 });
+
 !(function (a, b, c, d) {
   function e(b, c) {
     (this.element = b),
