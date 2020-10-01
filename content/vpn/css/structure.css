@@ -2655,6 +2655,7 @@ body.header-stack:not(.template-slider) #Header {
 
 .subheader-both-left #Subheader .title {
 	width: 100%;
+	text-align: center;
 }
 
 .subheader-both-left #Subheader .breadcrumbs {
@@ -7063,7 +7064,8 @@ body {
 	}
 
 	#Top_bar .logo #logo img {
-		height: auto !important;
+		margin-left: -20%;
+		height: 50px;
 	}
 
 	#Top_bar .search_wrapper {

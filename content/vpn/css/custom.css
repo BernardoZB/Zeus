@@ -11,7 +11,6 @@
   left: 0px;
   visibility: inherit;
   z-index: 20;
-
 }
 
 .titulo-inicial {
@@ -86,8 +85,8 @@
 }
 
 .titulo-planos {
-  margin-left: 450px !important;
-  width: 100%;
+  text-align: center;
+  width: 750%;
 }
 
 .banner-inicial {
@@ -102,13 +101,20 @@
   text-align: center;
 }
 
+#Subheader {
+  background-image: url(/content/vpn/images/Zeus_BG01-01.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 170px 0;
+}
+
 .link-footer {
   color: white !important;
 }
 
 .link-footer:hover {
-  border-bottom: #FDCD00 !important;
-  color: #FDCD00 !important;
+  border-bottom: #fdcd00 !important;
+  color: #fdcd00 !important;
 }
 
 .action_button {
@@ -135,9 +141,8 @@
 }
 
 .menu-item:hover {
-  color: #FDCD00 !important;
+  color: #fdcd00 !important;
 }
-
 
 .is-sticky .borda-menu {
   border-bottom: none;
@@ -145,12 +150,12 @@
 
 .is-sticky .responsive-menu-toggle {
   margin-top: -10px !important;
-  color: #FDCD00 !important;
+  color: #fdcd00 !important;
   font-size: 15px !important;
 }
 
 .borda-menu:hover {
-  border-bottom: 5px solid #FDCD00;
+  border-bottom: 5px solid #fdcd00;
 }
 
 #Side_slide .action_button {
@@ -164,12 +169,7 @@
   color: #fdcd00 !important;
 }
 
-@media only screen and (max-width: 1235px) {
-  .titulo-planos {
-    margin-left: -10px !important;
-  }
-
-}
+@media only screen and (max-width: 1240px) {}
 
 @media only screen and (max-width: 1235px) {
   #Top_bar #logo img {
@@ -181,6 +181,8 @@
     vertical-align: middle;
   }
 }
+
+@media only screen and (max-width: 959px) {}
 
 @media only screen and (max-width: 765px) {
   .is-sticky #logo img {
@@ -224,5 +226,11 @@
   .img-zeus {
     width: 400px;
     margin-left: -13%;
+  }
+}
+
+@media only screen and (max-width: 874px) {
+  .tabela-preço {
+    width: 100% !important;
   }
 }
