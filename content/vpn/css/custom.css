@@ -37,7 +37,7 @@
 }
 
 .teste {
-  margin-top: -20%;
+  margin-top: -2%;
   margin-left: -5%;
 }
 
@@ -47,6 +47,7 @@
 
 .metatrader-img {
   margin-left: 5%;
+  width: 25%;
 }
 
 .btn-inicial {
@@ -169,7 +170,6 @@
   color: #fdcd00 !important;
 }
 
-@media only screen and (max-width: 1240px) {}
 
 @media only screen and (max-width: 1235px) {
   #Top_bar #logo img {
@@ -182,8 +182,6 @@
   }
 }
 
-@media only screen and (max-width: 959px) {}
-
 @media only screen and (max-width: 765px) {
   .is-sticky #logo img {
     margin-top: -50px !important;
@@ -195,12 +193,12 @@
   }
 }
 
-/* 
+
 @media only screen and (max-width: 1238px) {
   .teste {
-     width: 120% 
- } 
- } */
+    width: 120%
+  }
+}
 
 @media only screen and (max-width: 1078px) {
   .titulo-inicial {
@@ -219,7 +217,7 @@
 
 @media only screen and (max-width: 958px) {
   .teste {
-    /* width: 150%; */
+    width: 150%;
     margin-left: -10%;
   }
 
@@ -234,6 +232,38 @@
     width: 100% !important;
   }
 }
+
+@media only screen and (max-width: 765px) {
+  .img-zeus {
+    width: 70%;
+    margin-left: 15%;
+    margin-top: -30% !important;
+  }
+
+  .teste {
+    width: 100%;
+    margin-left: 0%;
+    margin-top: 10% !important;
+  }
+
+  .linha-inicial {
+    display: none;
+  }
+
+  .titulo-inicial {
+    margin-top: -56% !important;
+    font-size: 28px;
+  }
+
+  .metatrader-img {
+    display: none;
+  }
+
+  .tela-inicial {
+    height: 100%;
+  }
+}
+
 
 * {
   box-sizing: border-box
