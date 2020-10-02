@@ -131,7 +131,7 @@ body.nice-scroll:not(.layout-boxed){padding-right:10px !important;}
 .tparrows.default.preview1,
 .tparrows.default.preview4{background:transparent;}
 #Sliding-top{position:absolute;left:0;top:0;width:100%;z-index:800;}
-#Sliding-top:after{content:"";height:3px;width:100%;display:block;position:absolute;left:0;bottom:-3px;z-index:1;background:url(../../../images/box_shadow.png) repeat-x left top;}
+#Sliding-top:after{content:"";height:3px;width:100%;display:block;position:absolute;left:0;bottom:-3px;z-index:1;}
 #Sliding-top .widgets_wrapper{padding:15px 0;display:none;}
 #Sliding-top .widgets_wrapper .column{margin-bottom:0;}
 #Sliding-top .widgets_wrapper .widget{margin-bottom:0;padding:15px 0;}
@@ -335,7 +335,7 @@ body.minimalist-header.header-below:not(.template-slider) #Header{min-height:90p
 #Top_bar .menu>li.current-menu-ancestor>a:after,
 #Top_bar .menu>li.current_page_ancestor>a:after,
 #Top_bar .menu>li.hover>a:after{opacity:1;filter:alpha(opacity=100);}
-#Top_bar .menu li ul{position:absolute;left:0px;top:100%;z-index:205;margin:0;display:none;background-image:url(../../../images/box_shadow.png);background-repeat:repeat-x;background-position:left top;}
+#Top_bar .menu li ul{position:absolute;left:0px;top:100%;z-index:205;margin:0;display:none;background-repeat:repeat-x;background-position:left top;}
 #Top_bar .menu li>ul{box-shadow:2px 2px 2px 0 rgba(0, 0, 0, 0.03);-webkit-box-shadow:2px 2px 2px 0 rgba(0, 0, 0, 0.03);}
 #Top_bar .menu li ul li{padding:0;width:190px;position:relative;font-weight:normal;}
 #Top_bar .menu li ul li a{padding:10px 10px 10px 20px;display:block;border-bottom:1px solid rgba(0, 0, 0, 0.05);}
@@ -505,7 +505,7 @@ body.header-stack:not(.template-slider) #Header{min-height:315px;}
 #Subheader ul.breadcrumbs li,
 #Subheader ul.breadcrumbs li a{color:rgba(0, 0, 0, .3);}
 #Subheader ul.breadcrumbs li span{margin:0 10px;opacity:0.4;filter:alpha(opacity=40);}
-#Subheader:after{content:"";height:3px;width:100%;display:block;position:absolute;left:0;bottom:-3px;z-index:1;background:url(../../../images/box_shadow.png) repeat-x left top;}
+#Subheader:after{content:"";height:3px;width:100%;display:block;position:absolute;left:0;bottom:-3px;z-index:1;}
 #Subheader ul.woocommerce-breadcrumb li:last-child span{display:none;}
 .subheader-title-right #Subheader .title{float:right;text-align:right;}
 .subheader-title-right #Subheader .breadcrumbs{float:left;text-align:left;}

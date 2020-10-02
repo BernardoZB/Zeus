@@ -1163,7 +1163,7 @@ a.mfn-link-5:before{color:#fff}
 .accordion .question .title>.acc-icon-minus:before{margin:0 !important}
 .accordion .question .title>.acc-icon-plus{display:block}
 .accordion .question .title>.acc-icon-minus{display:none}
-.accordion .question .answer{padding:15px 20px 20px;overflow:hidden;display:none;background-image:url(../images/box_shadow.png);background-repeat:repeat-x;background-position:left top}
+.accordion .question .answer{padding:15px 20px 20px;overflow:hidden;display:none;background-repeat:repeat-x;background-position:left top}
 .accordion .question .answer .wpb_content_element:last-child{margin-bottom:0}
 .accordion .question.active .title{border-width:0 0 1px}
 .accordion .question.active .title>.acc-icon-plus{display:none}
@@ -1196,7 +1196,6 @@ table th,
 table td{padding:10px;text-align:center;border-width:1px;border-style:solid;vertical-align:middle}
 table th{font-weight:700;background:url(../images/bg_panel.png) repeat-x left top}
 table th.clear{border:0;background:none}
-table tr:first-child td{background:url(../images/box_shadow.png) repeat-x left top}
 table tr:nth-child(2n) td{background:rgba(0, 0, 0, 0.01)}
 table.simple th{background:none}
 table.simple th,
@@ -4046,7 +4045,7 @@ body.table-hover:not(.woocommerce-page) table tr:hover td a{color:#fff}
 .ui-tabs .ui-tabs-nav li.ui-state-active a:after{content:"";display:block;height:1px;width:80%;position:absolute;left:50%;margin-left:-40%;bottom:-1px;z-index:2;}
 .ui-tabs .ui-tabs-nav li a,
 .ui-tabs.ui-tabs-collapsible .ui-tabs-nav li.ui-tabs-selected a{cursor:pointer;}
-.ui-tabs .ui-tabs-panel{display:block;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;background-image:url(../images/box_shadow.png);background-repeat:repeat-x;background-position:left top;border-width:0;padding:15px 20px 20px !important;margin:0;overflow:hidden;}
+.ui-tabs .ui-tabs-panel{display:block;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;background-repeat:repeat-x;background-position:left top;border-width:0;padding:15px 20px 20px !important;margin:0;overflow:hidden;}
 .wpb_content_element.wpb_tabs .wpb_tour_tabs_wrapper .wpb_tab.ui-tabs-panel{background-color:#fff;}
 .ui-tabs .ui-tabs-panel p:last-child{margin-bottom:0;}
 .ui-tabs .ui-tabs-hide{display:none !important;}
