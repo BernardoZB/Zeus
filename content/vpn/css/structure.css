@@ -195,7 +195,7 @@ body.nice-scroll:not(.layout-boxed){padding-right:10px !important;}
 .fixed-nav .photo,
 .fixed-nav .desc{-webkit-transition:all 0.3s ease-in-out;-moz-transition:all 0.3s ease-in-out;-o-transition:all 0.3s ease-in-out;-ms-transition:all 0.3s ease-in-out;transition:all 0.3s ease-in-out;}
 .fixed-nav.format-quote .desc{display:none;}
-.fixed-nav.format-quote .photo{background-color:#eee;background-image:url("../../../images/blockquote.png");background-position:center center;background-repeat:no-repeat;background-size:50% auto;}
+.fixed-nav.format-quote .photo{background-color:#eee;background-position:center center;background-repeat:no-repeat;background-size:50% auto;}
 .fixed-nav.format-link .photo img{display:none;}
 .fixed-nav.format-link .photo{background-color:#eee;background-image:url("../../../images/link.png");background-position:center center;background-repeat:no-repeat;}
 @media only screen and (max-width:1430px){.fixed-nav-prev .photo{position:static;margin-left:-115px;}
@@ -687,7 +687,7 @@ body:not(.template-slider) .widget-area{margin-top:-30px;}
 .Recent_posts ul li a:hover .desc .date{color:#fff !important;}
 .Recent_posts ul li a:hover .desc:after{width:100%;}
 .Recent_posts ul li.format-link .photo{background-color:#eee;background-image:url("../../../images/link.png");background-position:center center;background-repeat:no-repeat;}
-.Recent_posts ul li.format-quote .photo{background-color:#eee;background-image:url("../../../images/blockquote.png");background-position:center center;background-repeat:no-repeat;background-size:40% auto;}
+.Recent_posts ul li.format-quote .photo{background-color:#eee;background-position:center center;background-repeat:no-repeat;background-size:40% auto;}
 .Recent_posts ul li a:hover h6,
 .Recent_posts ul li a:hover .desc .date,
 .Recent_posts ul li a:hover .desc:after{-webkit-transition:all 0.3s ease-in-out;-moz-transition:all 0.3s ease-in-out;-o-transition:all 0.3s ease-in-out;transition:all 0.3s ease-in-out;}

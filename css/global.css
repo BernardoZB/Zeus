@@ -779,9 +779,9 @@ a:hover.tp-button.lightgrey{background-color:#fff;color:#545454 !important;}
 .wpml-languages:not(.disabled) .tooltip{cursor:default}
 .wpml-languages:not(.disabled) .tooltip:hover:after,
 .wpml-languages:not(.disabled) .tooltip.hover:after{display:none !important}
-blockquote{font-size:17px;line-height:31px;display:block;height:auto;margin:0 0 35px 25px;top:15px;position:relative;background:url(../images/stripes/textline.png) repeat-y}
+blockquote{font-size:17px;line-height:31px;display:block;height:auto;margin:0 0 35px 25px;top:15px;position:relative;}
 blockquote:before{content:""}
-blockquote:after{content:"";width:55px;height:40px;background:url(../images/blockquote.png);position:absolute;left:-25px;top:-15px}
+blockquote:after{content:"";width:55px;height:40px;position:absolute;left:-25px;top:-15px}
 .blockquote{margin-bottom:20px}
 .blockquote blockquote{margin-bottom:25px}
 .blockquote p.author{margin-left:25px}
@@ -6216,8 +6216,6 @@ pre p{margin-bottom:0 !important}
 .style-simple .dark .quick_fact .number-wrapper{color:#fff;}
 a.action_button{display:block;padding:11px 20px;line-height:21px;float:left;position:relative;box-sizing:border-box;border-radius:5px;overflow:hidden}
 a.action_button:hover{text-decoration:none}
-.dark blockquote{background-image:url(../images/textline_dark.png);}
-.dark blockquote:after{background-image:url(../images/blockquote_dark.png)}
 .equal-height-wrap .mcb-wrap .mcb-wrap-inner{position:relative;float:left;width:100%}
 .equal-height-wrap .mcb-wrap.valign-middle .mcb-wrap-inner{top:50%;-webkit-transform:translateY(-50%);-moz-transform:translateY(-50%);-ms-transform:translateY(-50%);-o-transform:translateY(-50%);transform:translateY(-50%)}
 .equal-height-wrap .mcb-wrap.valign-bottom .mcb-wrap-inner{top:100%;-webkit-transform:translateY(-100%);-moz-transform:translateY(-100%);-ms-transform:translateY(-100%);-o-transform:translateY(-100%);transform:translateY(-100%)}
