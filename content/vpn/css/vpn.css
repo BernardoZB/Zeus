@@ -2949,7 +2949,7 @@ h6 {
 /* Top bar width */
 
 #Top_bar .top_bar_left {
-	width: 990px;
+	width: 100%
 }
 
 /* Logo */

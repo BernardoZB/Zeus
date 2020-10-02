@@ -96,6 +96,7 @@
 
 .logo-inicial {
   width: 250px;
+  margin-left: 30%;
 }
 
 .depoimento {
@@ -233,11 +234,11 @@
   }
 }
 
-@media only screen and (max-width: 765px) {
+@media only screen and (max-width: 766px) {
   .img-zeus {
     width: 70%;
     margin-left: 15%;
-    margin-top: -30% !important;
+    margin-top: -10% !important;
   }
 
   .teste {
@@ -251,8 +252,8 @@
   }
 
   .titulo-inicial {
-    margin-top: -56% !important;
     font-size: 28px;
+    margin-top: -5% !important;
   }
 
   .metatrader-img {
@@ -262,8 +263,18 @@
   .tela-inicial {
     height: 100%;
   }
+  .btn-inicial{
+    margin-top: 0%;
+  }
+  .logo-inicial{
+    margin-left: 20%;
+  }
 }
-
+@media only screen and (max-width: 558px){
+  .logo-inicial{
+    margin-left: 10%;
+  }
+}
 
 * {
   box-sizing: border-box
