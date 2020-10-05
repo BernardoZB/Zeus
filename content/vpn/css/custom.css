@@ -19,7 +19,7 @@
 .menu-item:hover{color:#fdcd00 !important;}
 .is-sticky .borda-menu{border-bottom:none;}
 .is-sticky .responsive-menu-toggle{margin-top:-10px !important;color:#fdcd00 !important;font-size:15px !important;}
-.borda-menu:hover{border-bottom:5px solid #fdcd00;}
+.borda-menu:hover{border-bottom:5px solid #fdcd00 ;}
 #Side_slide .action_button{margin-top:-40px !important;width:240px;color:black !important;padding-left:35% !important;}
 .menu-ativo{color:#fdcd00 !important;}
 @media  (max-width:1235px){#Top_bar #logo img{vertical-align:middle;}
