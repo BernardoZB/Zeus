@@ -15,7 +15,7 @@
 .btn-menu{padding-top:20%;}
 .is-sticky .btn-menu{padding-top:8%;}
 #Top_bar .top_bar_right_wrapper{top:25px !important;}
-.titulo-politica{margin-left:70% !important;width:500px;}
+.titulo-politica{text-align:center;width:210%}
 .menu-item:hover{color:#fdcd00 !important;}
 .is-sticky .borda-menu{border-bottom:none;}
 .is-sticky .responsive-menu-toggle{margin-top:-10px !important;color:#fdcd00 !important;font-size:15px !important;}
@@ -53,7 +53,7 @@
 .btn-inicial{margin-top:0% !important;}
 .logo-inicial{margin-left: 20%;}
 .banner-inicial{height: 10% !important;}
-.ima-inicial{ height: 140px !important; margin-bottom: -10% !important;}
+.titulo-politica{width: 100%;}
 }
 @media  (max-width:558px){.logo-inicial{margin-left:15%;}
 }
