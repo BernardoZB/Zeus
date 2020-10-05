@@ -1,5 +1,5 @@
 .tela-inicial{background-color:transparent;background-repeat:no-repeat;background-image:url(/content/vpn/images/zeus_capa-01.png);background-size:cover;background-position:center top;width:100%;height:100%;opacity:1;top:0px;left:0px;visibility:inherit;z-index:20;}
-.titulo-inicial{z-index:9;display:flex;font-family:Lato;margin-top:-35% !important;margin-left:6% !important;visibility:visible;text-align:inherit;line-height:53px;letter-spacing:0px;font-weight:400;font-size:42px;border-color:rgb(134, 143, 152);border-style:none;color:rgb(255, 255, 255);text-decoration:none;width:auto;height:auto;min-height:0px;min-width:0px;opacity:1;}
+.titulo-inicial{text-align:justify;z-index:9;display:flex;font-family:Lato;margin-top:-35% !important;margin-left:6% !important;visibility:visible;text-align:inherit;line-height:53px;letter-spacing:0px;font-weight:400;font-size:42px;border-color:rgb(134, 143, 152);border-style:none;color:rgb(255, 255, 255);text-decoration:none;width:auto;height:auto;min-height:0px;min-width:0px;opacity:1;}
 .teste{margin-top:-2%;margin-left:-5%;}
 .img-zeus{margin-left:-10%;}
 .metatrader-img{margin-left:5%;width:25%;}
@@ -30,25 +30,36 @@
 }
 @media only screen and (max-width:1238px){.teste{width:120%}
 }
-@media only screen and (max-width:1078px){.titulo-inicial{font-size:30px;}
+@media only screen and (max-width:1078px){.titulo-inicial{font-size:26px; width: 80%;}
 .teste{margin-left:4%;}
 .img-zeus{width:400px;margin-left:10%;}
 }
 @media only screen and (max-width:958px){.teste{width:150%;margin-left:-10%;}
 .img-zeus{width:400px;margin-left:-13%;}
+.break-line-2{display: block !important;}
 }
-@media only screen and (max-width:874px){.tabela-preÃ§o{width:100% !important;}
+@media only screen and (max-width:874px){.tabela-preco{width:100% !important;}
+}
+@media only screen and (max-width:767px){
+  .break-line-2{display: none !important;}
+  .break-line-1{display: none !important;}}
 }
 @media only screen and (max-width:766px){.img-zeus{width:70%;margin-left:15%;margin-top:-10% !important;}
 .teste{width:100%;margin-left:0%;margin-top:10% !important;}
-.linha-inicial{display:none;}
-.titulo-inicial{font-size:28px;margin-top:-5% !important;}
-.metatrader-img{display:none;}
-.tela-inicial{height:100%;}
-.btn-inicial{margin-top:0%;}
-.logo-inicial{margin-left:20%;}
+.linha-inicial{display:none !important;}
+.titulo-inicial{font-size:28px;margin-top:-5% !important;text-align: center !important;}
+.metatrader-img{display:none !important;}
+.tela-inicial{height:100% !important;}
+.btn-inicial{margin-top:0% !important;}
+.logo-inicial{margin-left:20% !important;}
+.banner-inicial{height: 10% !important;}
+.ima-inicial{ height: 140px !important; margin-bottom: -10% !important;}
 }
 @media only screen and (max-width:558px){.logo-inicial{margin-left:10%;}
+}
+@media only screen and (max-width:425px){.titulo-inicial{font-size: 24px;}
+}
+@media only screen and (max-width:343px){.logo-inicial{width: 200px;}
 }
 *{box-sizing:border-box}
 body{font-family:Verdana, sans-serif;margin:0}

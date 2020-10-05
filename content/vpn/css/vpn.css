@@ -23,7 +23,6 @@
 #Top_bar .menu>li>ul.mfn-megamenu-bg>li>ul{background:none !important;-webkit-box-shadow:0 0 0 0;-moz-box-shadow:0 0 0 0;box-shadow:0 0 0 0;}
 .header-plain:not(.menuo-right) #Header .top_bar_left{width:auto !important;}
 .header-stack.header-center #Top_bar #menu{display:inline-block !important;}
-.header-simple{}
 .header-simple #Top_bar #menu{display:none;height:auto;width:300px;bottom:auto;top:100%;right:1px;position:absolute;margin:0px;}
 .header-simple #Header a.responsive-menu-toggle{display:block;line-height:35px;font-size:25px;position:absolute;right:10px;}
 .header-simple #Header a:hover.responsive-menu-toggle{text-decoration:none;}
@@ -152,7 +151,6 @@
 .rtl #Top_bar #menu ul li ul{left:auto !important;right:0 !important;}
 .rtl #Top_bar #menu ul li ul li a{padding:0 30px 0 20px;}
 .rtl #Top_bar #menu ul li ul li ul li a{padding:0 40px 0 20px;}
-.header-stack #Top_bar{}
 .header-stack .menu_wrapper a.responsive-menu-toggle{position:static !important;margin:11px 0;}
 .header-stack .menu_wrapper #menu{left:0;right:auto;}
 .rtl.header-stack #Top_bar #menu{left:auto;right:0;}
@@ -828,7 +826,6 @@ h6{font-weight:400;}
 #Content.no-padding,
 .template-slider #Content,
 .with_aside #Content{padding-top:0 !important;}
-.portfolio_group.exposure{}
 .portfolio_group.exposure .portfolio-item{width:100%;position:relative;}
 .portfolio_group.exposure .portfolio-item a.link{display:block;}
 .portfolio_group.exposure .portfolio-item .image-wrapper{line-height:0;}
@@ -952,7 +949,7 @@ h6{font-weight:400;}
 #Top_bar .logo{float:left;margin:0 30px 0 20px;}
 #Top_bar .logo h1{margin:0;}
 #Top_bar .logo:not(.text-logo) h1{line-height:0;font-size:0;margin:0;}
-#Top_bar #logo{display:block;height:60px;line-height:60px;padding:15px 0px;}
+#Top_bar #logo{display:block;height:90px;line-height:60px;padding:15px 0px;}
 #Top_bar #logo:hover{text-decoration:none;}
 #Top_bar #logo img{vertical-align:middle;max-height:100%;}
 #Top_bar #logo img.logo-sticky,
@@ -1012,12 +1009,7 @@ body.content_no_padding #Content{padding-top:0 !important;}
 .the-icons.span3 [class^="icon-"]{color:#3E3E3E;font-size:20px;position:absolute;top:0;left:0;cursor:default;}
 .the-icons.span3 [class^="icon-"]:hover{font-size:50px;background:#fff;padding:10px;display:block;text-align:center;width:70px;height:50px;border:1px solid #eee;top:-25px;left:-32px;z-index:2;}
 .the-icons.span3 .i-name{padding-left:40px;}
-@media only screen and min-width:768px and max-width:959px{.the-icons.span3{width:33.333%;}
-}
-@media only screen and min-width:480px and max-width:767px{.the-icons.span3{width:50%;}
-}
-@media only screen and max-width:479px{.the-icons.span3{width:100%;}
-}
+
 .parallax-video .content_video iframe{border:35px solid #efefef;-webkit-border-radius:5px 5px 5px 5px;-moz-border-radius:5px 5px 5px 5px;border-radius:5px 5px 5px 5px;-moz-box-sizing:border-box;box-sizing:border-box;}
 .section-border-top{border-top:1px solid rgba0, 0, 0, .08;}
 .notable_works .items_group{background:#eaeae8;}
@@ -1158,17 +1150,17 @@ p.flv_viz_hid{visibility:hidden !important;}
 div.flv_clear_both,
 p.flv_clear_both{clear:both}
 .sections_style_0,
-div.sections_style_0{padding-top:0px;padding-bottom:0px;background-color:}
+div.sections_style_0{padding-top:0px;padding-bottom:0px;}
 .sections_style_1,
 div.sections_style_1{margin:0px auto;padding:0px;margin-top:0px;margin-bottom:0px;}
 .sections_style_2,
-div.sections_style_2{padding-top:60px;padding-bottom:0px;background-color:}
+div.sections_style_2{padding-top:60px;padding-bottom:0px;}
 .sections_style_3,
-div.sections_style_3{padding-top:60px;padding-bottom:20px;background-color:}
+div.sections_style_3{padding-top:60px;padding-bottom:20px;}
 .sections_style_4,
-div.sections_style_4{padding-top:40px;padding-bottom:0px;background-color:}
+div.sections_style_4{padding-top:40px;padding-bottom:0px;}
 .sections_style_5,
-div.sections_style_5{padding-top:70px;padding-bottom:0px;background-color:}
+div.sections_style_5{padding-top:70px;padding-bottom:0px;}
 .flv_span_12,
 span.flv_span_12,
 div.flv_span_12{padding-top:12px;display:block}
