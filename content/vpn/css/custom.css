@@ -1,6 +1,6 @@
 .tela-inicial{background-color:transparent;background-repeat:no-repeat;background-image:url(/content/vpn/images/zeus_capa-01.png);background-size:cover;background-position:center top;width:100%;height:100%;opacity:1;top:0px;left:0px;visibility:inherit;z-index:20;}
 .titulo-inicial{text-align:justify;z-index:9;display:flex;font-family:Lato;margin-top:-35% !important;margin-left:6% !important;visibility:visible;text-align:inherit;line-height:53px;letter-spacing:0px;font-weight:400;font-size:42px;border-color:rgb(134, 143, 152);border-style:none;color:rgb(255, 255, 255);text-decoration:none;width:auto;height:auto;min-height:0px;min-width:0px;opacity:1;}
-.teste{margin-top:-2%;margin-left:-5%;}
+.img-divider{margin-top:-2%;margin-left:-5%;}
 .img-zeus{margin-left:-10%;}
 .metatrader-img{margin-left:5%;width:25%;}
 .btn-inicial{border-radius: 10px !important;z-index:6;background-color:rgb(253, 205, 0);font-family:Lato;text-transform:uppercase;cursor:pointer;outline:none;box-shadow:none;box-sizing:border-box;visibility:visible;text-align:inherit;line-height:14px;letter-spacing:2px;font-weight:900;font-size:19px;border-color:rgba(255, 255, 255, 0);margin:0px;border-radius:10px;padding:14px 34px;color:rgb(0, 0, 0);text-decoration:none;white-space:nowrap;width:auto;height:auto;min-height:0px;min-width:0px;max-height:none;max-width:none;opacity:1;transform:matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);transform-origin:50% 50% 0px;border-width:0px;border-style:solid;}
@@ -19,7 +19,7 @@
 .menu-item:hover{color:#fdcd00 !important;}
 .is-sticky .borda-menu{border-bottom:none;}
 .is-sticky .responsive-menu-toggle{margin-top:-10px !important;color:#fdcd00 !important;font-size:15px !important;}
-.borda-menu:hover{border-bottom:5px solid #fdcd00 ;}
+.borda-menu:hover{border-bottom:5px solid #fdcd00;}
 #Side_slide .action_button{margin-top:-40px !important;width:240px;color:black !important;padding-left:35% !important;}
 .menu-ativo{color:#fdcd00 !important;}
 @media  (max-width:1235px){#Top_bar #logo img{vertical-align:middle;}
@@ -28,13 +28,13 @@
 @media  (max-width:765px){.is-sticky #logo img{margin-top:-50px !important;vertical-align:middle;}
 .is-sticky .responsive-menu-toggle{margin-top:-25px !important;}
 }
-@media  (max-width:1238px){.teste{width:120%}
+@media  (max-width:1238px){.img-divider{width:120%}
 }
 @media  (max-width:1078px){.titulo-inicial{font-size:26px; width: 80%;}
-.teste{margin-left:4%;}
+.img-divider{margin-left:4%;}
 .img-zeus{width:400px;margin-left:10%;}
 }
-@media  (max-width:958px){.teste{width:150%;margin-left:-10%;}
+@media  (max-width:958px){.img-divider{width:150%;margin-left:-10%;}
 .img-zeus{width:400px;margin-left:-13%;}
 .break-line-2{display: block !important;}
 }
@@ -45,7 +45,7 @@
   .break-line-1{display: none !important;}
 }
 @media  (max-width:766px){.img-zeus{width:70%;margin-left:15%;margin-top:-10% !important;}
-.teste{width:100%;margin-left:0%;margin-top:10% !important;}
+.img-divider{width:100%;margin-left:0%;margin-top:10% !important;}
 .linha-inicial{display:none !important;}
 .titulo-inicial{font-size:28px;margin-top:-5% !important;text-align: center !important;}
 .metatrader-img{display:none !important;}
